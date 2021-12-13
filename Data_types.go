@@ -1,5 +1,9 @@
 package main
-import ("fmt")
+
+import (
+	"fmt"
+)
+
 func main() {
 	// Data types in go are
 	//  int , float , strings , bool , byte
@@ -9,9 +13,10 @@ func main() {
 	var integer2 int
 	integer1 = 5
 	integer2 = 10
-
+    currentAge := 20
 	fmt.Println(integer1)
-	fmt.Print(integer2)
+	fmt.Println(integer2)
+	fmt.Printf("Age = %d\n", currentAge)
 	// # Program to illustrate float32 and float64 with example
 	var salary1 float32
 	var salary2 float64
@@ -23,5 +28,12 @@ func main() {
 
 	fmt.Println(salary1)
 	fmt.Println(salary2)
+	var message string
+	message = "Welcome to Nit patna"
 
+	fmt.Println(message)
+	var boolValue bool
+	boolValue = false
+
+	fmt.Println(boolValue)
 }
